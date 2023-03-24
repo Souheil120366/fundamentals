@@ -80,7 +80,7 @@ print_hello_x_or_ten_times(4) #output 4 times 'Hello'
 Bonus section
 """
 
-print(num3) #output: NameError: name 'num3' is not defined
+#print(num3) #output: NameError: name 'num3' is not defined
 num3 = 72 # variable declaration
 fruit[0] = 'cranberry' #output: TypeError: 'tuple' object does not support item assignment
 print(person['favorite_team']) #output: KeyError: 'favorite_team'
