@@ -83,7 +83,7 @@ Bonus section
 #print(num3) #output: NameError: name 'num3' is not defined
 num3 = 72 # variable declaration
 fruit[0] = 'cranberry' #output: TypeError: 'tuple' object does not support item assignment
-print(person['favorite_team']) #output: KeyError: 'favorite_team'
+print(person['favorite_team']) #output KeyError: 'favorite_team'
 print(pizza_toppings[7]) #output: IndexError: list index out of range
 print(boolean) #output: True
 fruit.append('raspberry') #output: AttributeError: 'tuple' object has no attribute 'append'
