@@ -1,4 +1,3 @@
-"""
 def countdown (x):
     array=[]
     for i in range(x,-1,-1):
@@ -17,7 +16,7 @@ def first_plus_length (arr):
     return arr[0]+len(arr)    
 
 print(first_plus_length([1,2,3,4,5]))
-"""
+
 def values_greater_than_second(arr):
     res=[]
     if len(arr) > 1 :
